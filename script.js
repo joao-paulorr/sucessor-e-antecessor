@@ -26,19 +26,22 @@
 // }
 
 function foto() {
-    let foto = document.getElementById("fotop").value
+    let fotop = document.getElementById("fotop").value
     let divImagem = document.querySelector(".image-box")
     let imagem = document.createElement("img")
-    switch (foto) {
+    switch (fotop) {
         case "Sol":
-            sol.src = 'sol.jpg'
+            imagem.src = 'sol.jpg'
             break
 
         case "Chuva":
-            chuva.src = 'chuva.jpg'
+            imagem.src = 'chuva.jpg'
             break
+        
+        case "Raio":
+            imagem.src = 'raio.jpg'
     }
-    divImagem.innerHTML = ""
+    divImagem.innerHTML = ''
     divImagem.appendChild(imagem)
     
 }
