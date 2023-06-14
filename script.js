@@ -27,15 +27,18 @@
 
 function foto() {
     let foto = document.getElementById("fotop").value
-    let div = document.getElementById("foto")
-    let pai = document.div
-
+    let divImagem = document.querySelector(".image-box")
+    let imagem = document.createElement("img")
     switch (foto) {
         case "Sol":
-            let sol = document.createElement('img')
             sol.src = 'sol.jpg'
-            sol.style.height = '250px'
-            sol.style.width = '250px'
-            pai.appendChild(sol)
+            break
+
+        case "Chuva":
+            chuva.src = 'chuva.jpg'
+            break
     }
+    divImagem.innerHTML = ""
+    divImagem.appendChild(imagem)
+    
 }

@@ -1,0 +1,16 @@
+#foto {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.image-box {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
