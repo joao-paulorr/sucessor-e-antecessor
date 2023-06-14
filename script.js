@@ -26,7 +26,7 @@
 // }
 
 function foto() {
-    let foto = document.getElementById("fotop")
+    let foto = document.getElementById("fotop").value
     let div = document.getElementById("foto")
     let pai = document.div
 
