@@ -43,5 +43,4 @@ function foto() {
     }
     divImagem.innerHTML = ''
     divImagem.appendChild(imagem)
-    
 }
